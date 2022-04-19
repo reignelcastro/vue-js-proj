@@ -16,5 +16,6 @@ const counterStore = useCounterStore();
       <button class="btn m-1 btn-info" @click = "counterStore.decrement">-</button>
     </div>
       <RouterLink to="notes">Go to Notes </RouterLink>
+      <RouterLink to="login">Go to Login </RouterLink>
   </div>
 </template>
