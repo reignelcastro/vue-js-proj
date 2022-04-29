@@ -1,6 +1,10 @@
 <script setup>
 </script>
+
 <template>
+<div>
+    <RouterLink to="/"><i button class="bi bi-caret-left">Back</i></RouterLink>
+</div>
     <div class="d-flex align-items-center justify-content-center flex-column vh-100">
         <h1>Note Application</h1>
         <div class="w-50">

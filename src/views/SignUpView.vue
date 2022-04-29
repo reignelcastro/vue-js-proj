@@ -21,10 +21,9 @@
                     <label for="password">Password: </label>
                     <input type="password" class="form-control">
                 </div>
-                <div class="pss">
-                    
-                    <button class="btn m-1 btn-info">Save</button>
-                    <button class="btn m-1 btn-danger">Cancel</button>
+                <div class="pss color-black">
+                    <button class="btn m-2 btn-info">Save</button>
+                    <RouterLink to="login"><button class="btn m-2 btn-danger">Cancel</button></RouterLink>
                 </div>
         </div>
     </div>
@@ -32,7 +31,18 @@
 <style scoped>
 
 #form-group{
-        background-color: aqua;
+        background-color: #64E986;
+        font-weight: bold;
+        font-size: 110%;
 
 };
+div.pss{    
+    color:black;
+    font-weight: bold;
+};
+div.pss :hover{
+    background-color: white;
+    border-color:black;
+    
+}; 
 </style>
