@@ -7,9 +7,12 @@
     "preview": "vite preview --port 5050"
   },
   "dependencies": {
+    "@syncfusion/ej2-vue-buttons": "^20.1.50",
+    "@syncfusion/ej2-vue-navigations": "^20.1.51",
     "pinia": "^2.0.13",
     "vue": "^3.2.31",
-    "vue-router": "^4.0.14"
+    "vue-router": "^4.0.14",
+    "vue-sidebar-menu": "^4.8.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",
